@@ -1,7 +1,7 @@
-package org.example.laborator8.controller;
+package org.example.laborator9.controller;
 
-import org.example.laborator8.model.Student;
-import org.example.laborator8.service.StudentService;
+import org.example.laborator9.model.Student;
+import org.example.laborator9.service.StudentService;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -25,8 +25,4 @@ public class StudentController {
         studentService.saveStudent(student);
     }
 
-    @PostMapping("save-with-procedure")
-    public void saveStudentWithProcedure(@RequestBody Student student) {
-        studentService.saveStudentWithProcedure(student);
-    }
 }

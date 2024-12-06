@@ -1,7 +1,7 @@
-package org.example.laborator8.service;
+package org.example.laborator9.service;
 
-import org.example.laborator8.model.Student;
-import org.example.laborator8.respository.StudentRepository;
+import org.example.laborator9.model.Student;
+import org.example.laborator9.respository.StudentRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -15,14 +15,11 @@ public class StudentService {
     }
 
     public List<Student> getStudents(){
-        return studentRepository.getStudents();
+        return studentRepository.findAll();
     }
 
     public void saveStudent(Student student) {
-        studentRepository.saveStudent(student);
+        studentRepository.save(student);
     }
 
-    public void saveStudentWithProcedure(Student student) {
-        studentRepository.executeProcedure(student);
-    }
 }
