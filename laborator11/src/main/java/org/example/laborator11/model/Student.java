@@ -1,6 +1,5 @@
-package org.example.laborator9.model;
+package org.example.laborator11.model;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 
 @Entity

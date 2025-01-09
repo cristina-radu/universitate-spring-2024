@@ -1,8 +1,8 @@
-package org.example.laborator9.controller;
+package org.example.laborator11.controller;
 
-import org.example.laborator9.exception.DuplicateStudentCnpException;
-import org.example.laborator9.model.Student;
-import org.example.laborator9.service.StudentService;
+import org.example.laborator11.exception.DuplicateStudentCnpException;
+import org.example.laborator11.model.Student;
+import org.example.laborator11.service.StudentService;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

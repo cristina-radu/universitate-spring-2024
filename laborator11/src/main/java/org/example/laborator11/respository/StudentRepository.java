@@ -1,6 +1,6 @@
-package org.example.laborator9.respository;
+package org.example.laborator11.respository;
 
-import org.example.laborator9.model.Student;
+import org.example.laborator11.model.Student;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
